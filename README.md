@@ -1,4 +1,4 @@
-[![build+tests](https://github.com/foelkdavid/breezebuddy/actions/workflows/build_and_test.yml/badge.svg)](https://github.com/foelkdavid/breezebuddy/actions/workflows/build_and_test.yml)
+[![build](https://github.com/foelkdavid/breezebuddy/actions/workflows/build.yml/badge.svg)](https://github.com/foelkdavid/breezebuddy/actions/workflows/build.yml)
 # BreezeBuddy
 
 ## Markup
