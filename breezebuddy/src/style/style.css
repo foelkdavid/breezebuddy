@@ -1,0 +1,73 @@
+@define-color bg_dark #1f2043;
+@define-color bg_light #46486b;
+
+#heading {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:2rem;
+    text-align: left;
+}
+
+#heading#main_heading{
+    padding: 1rem;
+    margin: 1rem;
+}
+
+#curve {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:2rem;
+    border-radius: 2rem;
+    background-color: @bg_light;
+    margin: 0.5rem;
+}
+
+#main_grid{
+    background-color: red;
+}
+
+#left_grid{
+    background-color: @bg_light;
+}
+
+#right_grid{
+    background-color: @bg_dark;
+    padding: 1rem;
+}
+
+
+#left_grid button {
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:2rem;
+    border-radius: 2rem;
+    margin: 0.5rem;
+
+    background-color: @bg_dark;
+}
+
+#right_grid button {
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:2rem;
+    border-radius: 2rem;
+    margin: 0.5rem;
+    min-width: 120px; /* Set the minimum width */
+    min-height: 120px; /* Set the minimum height */
+    background-color: @bg_light;
+}
+
+
+#main_grid button:hover {
+    opacity: 0.7;
+}
+
+#main_grid button:active {
+    opacity: 0.8;
+}
+
+}
