@@ -1,18 +1,19 @@
-use gtk4 as gtk;
 use gtk::prelude::*;
 use gtk::{glib, Application};
+use gtk4 as gtk;
 
-mod ui;
+mod actions;
 mod style;
+mod ui;
 
 fn main() -> glib::ExitCode {
-    // Create a new application
-    let app = Application::builder().application_id("BreezeBuddy").build();
+    let app = Application::builder()
+        .application_id("com.foelk.BreezeBuddy")
+        .build();
 
     // Connect to signals
-    app.connect_startup(|_| style::load_css());
+    app.connect_startup(|_| style::load_sass());
     app.connect_activate(|app| ui::build_ui(app));
 
-    // Run the application
     app.run()
 }
