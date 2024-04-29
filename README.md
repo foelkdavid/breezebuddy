@@ -1,5 +1,5 @@
 [![build](https://github.com/foelkdavid/breezebuddy/actions/workflows/build.yml/badge.svg)](https://github.com/foelkdavid/breezebuddy/actions/workflows/build.yml)
-# BreezeBuddy
+# ❄️ BreezeBuddy
 
 ## Markup
 ![markup](design/markup.svg)
